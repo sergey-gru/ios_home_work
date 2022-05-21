@@ -78,6 +78,6 @@ SolveDeposit(126_000, 0.30, 3)
 print()
 SolveDeposit(50_000, 0.07, 5)
 print()
-SolveDeposit(1_000_000, 0.12, 5)
+SolveDeposit(3_000_000, 0.12, 5)
 
 

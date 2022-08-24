@@ -4,10 +4,10 @@
 //
 //  Created by admin on 03.08.2022.
 //
-
+import Foundation
 import UIKit
 
-class LoginController: UIViewController {
+class LoginViewController: UIViewController {
 
     //MARK: - References
     @IBOutlet var txtLogin: UITextField!
@@ -25,6 +25,9 @@ class LoginController: UIViewController {
             self.showError("Wrong pair <login, password>")
             return
         }
+        
+        //let s = MemoryLayout<UIButton>.size
+        //print("sizeof = \(s)")
         
         self.performSegue(withIdentifier: "segueLogin", sender: self)
     }
